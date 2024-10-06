@@ -1,0 +1,3 @@
+#!/bin/bash
+
+bat --wrap auto src/main.rs -n
