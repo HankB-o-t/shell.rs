@@ -51,7 +51,7 @@ fn main() {
                     .spawn()
                     .unwrap();
 
-                child.wait();
+                let _ = child.wait();
             }
         }
     }
